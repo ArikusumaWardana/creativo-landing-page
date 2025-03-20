@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import ServicesSection from "./components/ServicesSection";
-import PortfolioSection from "./components/PortfolioSection";
-import CollaborateSection from "./components/CollaborateSection";
-import Footer from "./components/Footer";
+import Navbar from "@/app/components/Navbar";
+import HeroSection from "@/app/components/HeroSection";
+import ServicesSection from "@/app/components/ServicesSection";
+import PortfolioSection from "@/app/components/PortfolioSection";
+import CollaborateSection from "@/app/components/CollaborateSection";
+import Footer from "@/app/components/Footer";
 
 
 

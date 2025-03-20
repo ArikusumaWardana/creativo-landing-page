@@ -1,5 +1,5 @@
-import Button from "./Button";
-import SectionTitle from "./SectionTitle";
+import Button from "@/app/components/Button";
+import SectionTitle from "@/app/components/SectionTitle";
 
 export default function CollaborateSection() {
   return (
