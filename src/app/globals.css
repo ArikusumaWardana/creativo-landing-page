@@ -1,0 +1,21 @@
+@import "tailwindcss";    
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+/* Custom styles */
+.font-inter {
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
