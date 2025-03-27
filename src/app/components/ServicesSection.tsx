@@ -28,9 +28,11 @@ export default function ServicesSection() {
   return (
     <section id="services" className="py-20 bg-gray-950">
         <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
-          <div className="grid md:grid-cols-[200px_1fr] gap-8 md:gap-16">
-            <SectionTitle title="Our Services" style="text-white md:mt-6" />
-            <div className="space-y-0">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+            <div className="md:w-[200px]">
+              <SectionTitle title="Our Services" style="text-white md:mt-6" />
+            </div>
+            <div className="flex-1 space-y-0">
               {services.map((service, index) => (
                 <ServiceItem
                   key={index}
