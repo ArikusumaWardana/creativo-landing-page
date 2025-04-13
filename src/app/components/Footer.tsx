@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { User, UserRoundCog, Trophy, SquareUser, HandCoins, BadgeHelp, FileQuestion, SquarePower, ReceiptText, Handshake, UserCheck } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -27,19 +28,24 @@ export default function Footer() {
               <div>
                 <h4 className="font-bold font-inter text-xl mb-10">Company</h4>
                 <div className="flex flex-col space-y-10">
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <User className="w-4 h-4 mr-2" />
                     About
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <UserRoundCog className="w-4 h-4 mr-2" />
                     Services
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <Trophy className="w-4 h-4 mr-2" />
                     Careers
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <SquareUser className="w-4 h-4 mr-2" />
                     Blog
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <HandCoins className="w-4 h-4 mr-2" />
                     Pricing
                   </Link>
                 </div>
@@ -49,19 +55,24 @@ export default function Footer() {
               <div>
                 <h4 className="font-bold font-inter text-xl mb-10">Contact</h4>
                 <div className="flex flex-col space-y-10">
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <BadgeHelp className="w-4 h-4 mr-2" />
                     Help
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <FileQuestion className="w-4 h-4 mr-2" />
                     FAQs
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <SquarePower className="w-4 h-4 mr-2" />
                     Press
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <ReceiptText className="w-4 h-4 mr-2" />
                     Terms & Conditions
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <Handshake className="w-4 h-4 mr-2" />
                     Partners
                   </Link>
                 </div>
@@ -71,10 +82,12 @@ export default function Footer() {
               <div>
                 <h4 className="font-bold font-inter text-xl mb-10">Discover</h4>
                 <div className="flex flex-col space-y-10">
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <UserCheck className="w-4 h-4 mr-2" />
                     Affiliate
                   </Link>
-                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter">
+                  <Link href="/" className="text-gray-400 hover:text-white transition-colors font-inter flex items-center">
+                    <Handshake className="w-4 h-4 mr-2" />
                     Partner Program
                   </Link>
                 </div>
