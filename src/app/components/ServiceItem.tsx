@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react';
+import { ChevronDown } from 'lucide-react'; 
 
 interface ServiceItemProps {
   title: string;
@@ -12,24 +13,9 @@ export default function ServiceItem({ title, description, isOpen = false }: Serv
 
   return (
     <div className="border-b border-white/50">
-      <button
-        className="w-full py-6 flex items-center justify-between text-white"
-        onClick={() => setIsExpanded(!isExpanded)}
-      >
+      <button className="w-full py-6 flex items-center justify-between text-white" onClick={() => setIsExpanded(!isExpanded)}>
         <h3 className="text-xl md:text-2xl font-inter font-medium text-left">{title}</h3>
-        <svg
-          className={`w-6 h-6 transform transition-transform ${isExpanded ? 'rotate-180' : ''}`}
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M19 9l-7 7-7-7"
-          />
-        </svg>
+        <ChevronDown className={`w-6 h-6 transform transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
       </button>
       <div
         className={`overflow-hidden transition-all duration-300 ease-in-out ${
