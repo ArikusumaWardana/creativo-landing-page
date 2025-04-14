@@ -5,7 +5,7 @@ interface SectionTitleProps {
 
 export default function SectionTitle({ title, style }: SectionTitleProps) {
   return (
-    <h2 className={`md:text-md font-light font-inter ${style}`}>
+    <h2 className={`md:text-md font-bold font-inter ${style}`}>
         {title}
     </h2>
   );
