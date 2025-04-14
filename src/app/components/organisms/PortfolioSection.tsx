@@ -1,5 +1,5 @@
-import PortfolioItem from "@/app/components/PortfolioItem";
-import SectionTitle from "@/app/components/SectionTitle";
+import PortfolioItem from "@/app/components/molecules/PortfolioItem";
+import SectionTitle from "@/app/components/atoms/SectionTitle";
 
 const portfolioItems = [
     {

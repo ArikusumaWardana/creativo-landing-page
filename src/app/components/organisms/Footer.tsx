@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, User, UserRoundCog, Trophy, SquareUser, HandCoins, BadgeHelp, FileQuestion, SquarePower, ReceiptText, Handshake, UserCheck } from "lucide-react";
-import { footerData } from "../data/footerData";
+import { footerData } from "@/app/data/footerData";
 
 export default function Footer() {
     return (

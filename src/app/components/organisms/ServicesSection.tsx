@@ -1,5 +1,5 @@
-import ServiceItem from "@/app/components/ServiceItem";
-import SectionTitle from "@/app/components/SectionTitle";
+import ServiceItem from "@/app/components/molecules/ServiceItem";
+import SectionTitle from "@/app/components/atoms/SectionTitle";
 
 const services = [
     {

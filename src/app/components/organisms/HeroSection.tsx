@@ -1,4 +1,4 @@
-import Button from "@/app/components/Button";
+import Button from "@/app/components/atoms/Button";
 import Image from "next/image";
 
 export default function HeroSection() {
