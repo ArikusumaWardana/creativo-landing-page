@@ -45,16 +45,18 @@ export default function CollaborateSection() {
 
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
         <div className="grid md:grid-cols-[200px_1fr] gap-8 md:gap-16">
-          <SectionTitle title="Let's Collaborate" style="text-white md:mt-6" />
+          <div data-aos="fade-up">
+            <SectionTitle title="Let's Collaborate" style="text-white md:mt-6" />
+          </div>
           <div className="md:w-[650px] space-y-8">
-            <p className="text-lg md:text-2xl font-inter font-medium text-white/90 leading-relaxed">
+            <p className="text-lg md:text-2xl font-inter font-medium text-white/90 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
               Ready to turn your ideas into exceptional designs? Contact us today, and let's make something amazing together!
             </p>
-
-
+            <div data-aos="fade-up" data-aos-delay="400">
               <Button 
                 text="LET'S TALK" 
                 style={`bg-white text-gray-950 hover:bg-gray-200 px-8 py-3 md:px-10 transition-all duration-300`} />
+            </div>
           </div>
         </div>
       </div>
