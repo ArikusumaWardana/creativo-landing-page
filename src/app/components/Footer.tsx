@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { User, UserRoundCog, Trophy, SquareUser, HandCoins, BadgeHelp, FileQuestion, SquarePower, ReceiptText, Handshake, UserCheck } from "lucide-react";
+import { Phone, Mail, User, UserRoundCog, Trophy, SquareUser, HandCoins, BadgeHelp, FileQuestion, SquarePower, ReceiptText, Handshake, UserCheck } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -17,8 +17,8 @@ export default function Footer() {
                 Creativo is where your imagination and our expertise converge to create design solutions that elevate your brand and set you apart from the competition.
               </p>
               <div className="space-y-2">
-                <p className="font-inter text-white font-medium">hello@creativo.com</p>
-                <p className="font-inter text-white font-medium">+1-800-123 4567</p>
+                <p className="font-inter text-white font-medium flex items-center"> <Mail className="w-4 h-4 mr-2" /> hello@creativo.com</p>
+                <p className="font-inter text-white font-medium flex items-center"> <Phone className="w-4 h-4 mr-2" /> +1-800-123 4567</p>
               </div>
             </div>
 
