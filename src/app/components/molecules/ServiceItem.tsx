@@ -3,9 +3,9 @@ import { useState } from 'react';
 import { ChevronDown } from 'lucide-react'; 
 
 interface ServiceItemProps {
-  title: string;
-  description: string;
-  isOpen?: boolean;
+    title: string;
+    description: string;
+    isOpen?: boolean;
 }
 
 export default function ServiceItem({ title, description, isOpen = false }: ServiceItemProps) {
