@@ -37,17 +37,19 @@ export default function HeroSection() {
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="space-y-6 flex-1">
-            <h1 className="text-3xl md:text-6xl font-bold text-[#1F1D2B] leading-tight font-inter">
+            <h1 className="text-3xl md:text-6xl font-bold text-[#1F1D2B] leading-tight font-inter" data-aos="fade-right">
               Where<br />
               Design Meets<br />
               Innovation!
             </h1>
-            <p className="text-gray-600 text-lg md:text-xl max-w-lg font-inter">
+            <p className="text-gray-600 text-lg md:text-xl max-w-lg font-inter" data-aos="fade-right" data-aos-delay="200">
               Whether you're a startup looking to establish your brand identity or an established business aiming to refresh your image, we've got the creative firepower to make it happen.
             </p>
-            <Button text="LET'S TALK" style="bg-[#1F1D2B] text-white hover:bg-[#2d2b3d] px-8 py-3 md:px-12 md:py-3"/>
+            <div data-aos="fade-right" data-aos-delay="400">
+              <Button text="LET'S TALK" style="bg-[#1F1D2B] text-white hover:bg-[#2d2b3d] px-8 py-3 md:px-12 md:py-3"/>
+            </div>
           </div>
-          <div className="relative flex-1">
+          <div className="relative flex-1" data-aos="fade-left">
             <Image
               src="/hero/hero-section.svg"
               alt="Creative team illustration"
