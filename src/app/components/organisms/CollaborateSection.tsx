@@ -50,7 +50,7 @@ export default function CollaborateSection() {
           </div>
           <div className="md:w-[650px] space-y-8">
             <p className="text-lg md:text-2xl font-inter font-medium text-white/90 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
-              Ready to turn your ideas into exceptional designs? Contact us today, and let's make something amazing together!
+              {`Ready to turn your ideas into exceptional designs? Contact us today, and let's make something amazing together!`}
             </p>
             <div data-aos="fade-up" data-aos-delay="400">
               <Button 

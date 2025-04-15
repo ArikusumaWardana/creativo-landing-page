@@ -43,7 +43,7 @@ export default function HeroSection() {
               Innovation!
             </h1>
             <p className="text-gray-600 text-lg md:text-xl max-w-lg font-inter" data-aos="fade-right" data-aos-delay="200">
-              Whether you're a startup looking to establish your brand identity or an established business aiming to refresh your image, we've got the creative firepower to make it happen.
+              {`Whether you're a startup looking to establish your brand identity or an established business aiming to refresh your image, we've got the creative firepower to make it happen.`}
             </p>
             <div data-aos="fade-right" data-aos-delay="400">
               <Button text="LET'S TALK" style="bg-[#1F1D2B] text-white hover:bg-[#2d2b3d] px-8 py-3 md:px-12 md:py-3"/>
