@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/ArikusumaWardana/creativo-landing-page.git
 cd creativo-landing
 ```
 
@@ -86,6 +86,3 @@ To learn more about the technologies used in this project:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
