@@ -5,12 +5,11 @@ interface PortfolioItemProps {
   description: string;
   longDescription: string;
   imageUrl: string;
-  dataAos?: string;
 }
 
-export default function PortfolioItem({ title, description, longDescription, imageUrl, dataAos }: PortfolioItemProps) {
+export default function PortfolioItem({ title, description, longDescription, imageUrl }: PortfolioItemProps) {
   return (
-    <div className="w-full group" data-aos={dataAos}>
+    <div className="w-full group">
       <div className="relative w-full overflow-hidden rounded-lg aspect-[4/3]">
         <Image 
           src={imageUrl} 

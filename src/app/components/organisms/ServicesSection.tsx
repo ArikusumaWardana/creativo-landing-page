@@ -14,6 +14,7 @@ export default function ServicesSection() {
         <div className="absolute -right-20 top-1/4 w-40 h-40 rounded-full bg-gradient-to-br from-purple-500/20 to-transparent animate-pulse"></div>
         <div className="absolute -left-20 bottom-1/4 w-40 h-40 rounded-full bg-gradient-to-br from-blue-500/20 to-transparent animate-pulse" style={{ animationDelay: '1s' }}></div>
         
+        
         {/* Floating Elements */}
         <div className="absolute left-1/4 top-1/3 w-8 h-8 rounded-full bg-white/10 animate-float"></div>
         <div className="absolute right-1/3 bottom-1/4 w-6 h-6 rounded-full bg-white/10 animate-float" style={{ animationDelay: '1s' }}></div>
