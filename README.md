@@ -16,8 +16,8 @@ A modern and creative landing page built with Next.js, React, and Tailwind CSS. 
 - React 19
 - TypeScript
 - Tailwind CSS 4
-- AOS (Animate On Scroll)
-- Lucide React (Icons)
+- [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) 
+- [Lucide React (Icons)](https://lucide.dev/)
 
 ## 📦 Prerequisites
 
