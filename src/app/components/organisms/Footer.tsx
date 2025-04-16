@@ -50,7 +50,7 @@ export default function Footer() {
             <div className="md:max-w-xs">
               <div className="flex items-center gap-2 mb-6">
                 <Image src={footerData.info.logo} alt="logo" width={32} height={32} />
-                <span className="text-2xl font-bold font-inter">{footerData.info.brandName}</span>
+                <span className="text-2xl font-bold font-inter text-white">{footerData.info.brandName}</span>
               </div>
               <p className="text-gray-500 font-inter mb-8">
                 {footerData.info.description}
