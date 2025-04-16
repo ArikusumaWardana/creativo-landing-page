@@ -30,7 +30,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 ```bash
 git clone https://github.com/ArikusumaWardana/creativo-landing-page.git
-cd creativo-landing
+cd creativo-landing-page
 ```
 
 2. Install dependencies:
